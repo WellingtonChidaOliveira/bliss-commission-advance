@@ -2,9 +2,9 @@
   "name": "@bliss/commission-service",
   "version": "0.0.1",
   "private": true,
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc -p tsconfig.json",
     "test": "jest --passWithNoTests"
   },

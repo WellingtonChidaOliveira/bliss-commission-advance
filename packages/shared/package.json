@@ -8,6 +8,10 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
   }
 }
